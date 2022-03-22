@@ -1,6 +1,6 @@
 {
   "name": "backendangular",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Proyecto Backend API GraphQL CineWorld",
   "main": "build/server.js",
   "scripts": {
