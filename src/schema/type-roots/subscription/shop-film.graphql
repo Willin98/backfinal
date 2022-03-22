@@ -1,0 +1,4 @@
+type Subscription {
+  updateStockFilm: ShopFilm
+  selectFilmStockUpdate(id: Int!): ShopFilm
+}

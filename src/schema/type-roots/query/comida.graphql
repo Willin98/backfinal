@@ -1,0 +1,6 @@
+type Query {
+  "Lista de generos"
+  comidas(page: Int = 1, itemsPage: Int = 20): ResultComida
+  "Item del genero seleccionado"
+  comida(id: ID!): ResultComida
+}

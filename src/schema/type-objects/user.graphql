@@ -1,0 +1,28 @@
+"""
+Vamos a especificar la informacion detallada del usuario
+* Vamos a tener en cuenta:
+* email= usuario del cliente de la base de datos.
+* Fecha de nacimiento y registro en formato ISO
+"""
+type User{
+    "Identificador unico"
+    id: ID!
+    "Nombre de pila"
+    name: String!
+    "Apellido"
+    lastname: String!
+    "Email del usuario"
+    email: String!
+    "Contraseña"
+    password: String!
+    "Fecha de registro"
+    registerDate: String!
+    "Fecha de Nacimiento"
+    birthday: String!
+    "Permisos del usuario"
+    role: Role!
+    "Usuario activo o no"
+    active: Boolean
+    "Cliente de Stripe"
+    stripeCustomer:String
+}

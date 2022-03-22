@@ -1,0 +1,11 @@
+type ResultShopFilm implements Result {
+    info: ResultInfo
+    "Estado de la operacion"
+    status: Boolean!
+    "Mensaje de la operacion"
+    message: String!
+    "pelicula seleccionada"
+    shopFilm: ShopFilm
+    "Lista de peliculas"
+    shopFilms: [ShopFilm!]
+}

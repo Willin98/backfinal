@@ -1,0 +1,12 @@
+type ShopFilm {
+    id: ID!
+    filmId: ID!
+    film: Film!
+    platformId: ID!
+    platform: Platform!
+    date: String!
+    stock: Int!
+    price: Float!
+    active: Boolean!
+    relationalFilms: [ShopFilm]
+}

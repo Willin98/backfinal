@@ -1,0 +1,9 @@
+type ResultComida implements Result {
+  info: ResultInfo
+  "Estado de la operacion"
+  status: Boolean!
+  "Mensaje de la operacion"
+  message: String!
+  comida: Comida
+  comidas: [Comida!]
+}

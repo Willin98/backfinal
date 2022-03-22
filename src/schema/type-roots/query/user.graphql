@@ -1,0 +1,15 @@
+"Definiciones de los tipos de raiz"
+type Query{
+    "Lista de usuarios registrados en la Base de datos (Clientes / Admins)"
+    users (
+        "Pagina seleccionada para acceder a ella"
+        page: Int = 1,
+        "Usuarios por pagina que se obtendra" 
+        itemsPage: Int = 20,
+        "Especificar el estado del usuario que queremos mostrar"
+        active: ActiveFilterEnum = ACTIVE): ResultUsers
+    "Para iniciar sesion de usuario"
+    login(email: String!, password: String!): ResultLogin
+    "Autenticarnos mediante token"
+    me: ResultUser 
+}

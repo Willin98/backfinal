@@ -1,0 +1,12 @@
+input ComidaInput{
+    "Identificador no obligatorio"
+    id: ID
+    "Nombre de pila"
+    name: String!
+    description: String!
+    stock: Int!
+    price: Float!
+    img: String!
+    "Activo o no activo"
+    active: Boolean
+}

@@ -1,0 +1,11 @@
+type ResultProximamente implements Result {
+    info: ResultInfo
+    "Estado de la operacion"
+    status: Boolean!
+    "Mensaje de la operacion"
+    message: String!
+    "pelicula seleccionada"
+    proximamente: Proximamente
+    "Lista de peliculas"
+    proximamentes: [Proximamente!]
+}

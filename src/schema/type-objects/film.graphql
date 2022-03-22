@@ -1,0 +1,9 @@
+type Film {
+    id: ID!
+    name: String!
+    slug: String!
+    description: String!
+    img: String!
+    poster: String!
+    clip: String!
+}

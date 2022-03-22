@@ -1,0 +1,7 @@
+type Mutation {
+  "Apartado de operaciones de los generos"
+  addComida(comida: ComidaInput!): ResultComida
+  updateComida(comida: ComidaInput!): ResultComida
+  deleteComida(id: ID!): ResultComida
+  blockComida(id: ID!, unblock: Boolean = false): ResultComida
+}

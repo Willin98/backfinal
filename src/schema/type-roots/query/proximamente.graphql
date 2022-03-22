@@ -1,0 +1,9 @@
+type Query {
+  "Lista de peliculas en cartelera"
+  proximamentes(
+    page: Int = 1,
+    itemsPage: Int = 20,
+    active: ActiveFilterEnum = ACTIVE
+  ): ResultProximamente
+  proximamenteDetails (id: String!): ResultProximamente
+}

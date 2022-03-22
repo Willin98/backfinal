@@ -1,0 +1,10 @@
+"Tipo de objeto para almacenar la informacion de generos de las peliculas"
+type Comida {
+  id: ID!
+  name: String!
+  description: String!
+  stock: Int!
+  price: Float!
+  img: String!
+  active: Boolean
+}

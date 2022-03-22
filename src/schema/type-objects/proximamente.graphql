@@ -1,0 +1,7 @@
+type Proximamente {
+    id: ID!
+    filmId: ID!
+    film: Film!
+    premiere: String!
+    active: Boolean!
+}
