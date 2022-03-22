@@ -26,10 +26,7 @@
     "url": "https://github.com/Willin98/backendAngularProyecto/issues"
   },
   "homepage": "https://github.com/Willin98/backendAngularProyecto#readme",
-  "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=7.0.0"
-  },
+  "engines": { "node": "14.17.0", "npm": "7.20.3" },
   "dependencies": {
     "@graphql-tools/load-files": "^6.0.18",
     "@graphql-tools/merge": "^6.0.18",
